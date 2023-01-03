@@ -1,0 +1,541 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  background: linear-gradient(
+    151.65deg,
+    #fff6af -16.91%,
+    #b6731b 55.75%,
+    #dbb667 83.72%
+  );
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-takip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.444444px;
+  color: #31353a;
+  margin-right: 10px;
+}
+.sablon-hepsi {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  justify-content: center;
+  padding: 72px;
+  display: flex;
+}
+.icon-type {
+  color: #31353a;
+  height: 28px;
+  width: 28px;
+}
+.icon-type-phone {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  margin-top: 12px;
+  transform: rotate(25deg);
+}
+a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* .header-sol{
+      width: 70%; 
+  }
+  */
+.header-sag {
+  /* width: 30%; */
+  display: flex;
+}
+.sablon-sol {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.sablon-header {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.header-button {
+  height: 60px;
+  border-radius: 10px;
+  background-color: #31353a;
+}
+
+.btn-span {
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(
+    151.65deg,
+    #fff6af -16.91%,
+    #b6731b 55.75%,
+    #dbb667 83.72%
+  );
+  font-size: 30px;
+  font-weight: 600px;
+  margin-left: 10px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-sag-div {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.header-sag-span {
+  font-size: 24px;
+}
+
+.h3-header {
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffff;
+  text-align: left;
+}
+
+.h3renkli {
+  font-style: normal;
+  font-size: 90px;
+  font-weight: 800;
+  text-align: left;
+  background: linear-gradient(
+    151.65deg,
+    #fff6af -16.91%,
+    #b6731b 55.75%,
+    #dbb667 83.72%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bck-footer-alt {
+  background-repeat: no-repeat;
+  background-size: 100% !important;
+}
+
+.p1 {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+.form-kayıt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: linear-gradient(
+    139.85deg,
+    rgb(255, 246, 175) -13.45%,
+    rgb(219, 182, 103) 1.37%,
+    rgb(182, 115, 27) 100%
+  );
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  height: 100%;
+}
+
+.submitbutton {
+  background: linear-gradient(90deg, #31353a 0%, #30302d 50.97%, #020203 100%);
+  font-size: 25px;
+  height: 100%;
+  border-radius: 14px;
+  margin-top: 10px;
+  color: #ffff;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin-block: auto;
+  padding: 15px;
+}
+
+.abc {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #020203;
+  text-align: center;
+}
+
+/* How Do We Work  Start*/
+
+.how-h2 {
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.howp {
+  font-style: normal;
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 20px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin-top: 30px;
+}
+.how-p {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.howbackground {
+  background-repeat: no-repeat !important ;
+  background-size: cover !important;
+  width: 100%;
+  height: 560px;
+}
+
+.how-img {
+  position: absolute;
+  top: 30%;
+}
+
+.how-icon {
+  position: absolute;
+  bottom: -35px;
+  width: 75px;
+  height: 70px;
+}
+/* How Do We Work End*/
+
+/* About Us Start*/
+
+.AboutUs {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: right !important;
+}
+
+.about-background {
+  height: 100px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.about-h5 {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.about-h1 {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.about-p {
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.about-video-link {
+  width: 560px;
+  height: 315px;
+}
+@media only screen and (max-width: 1024px) {
+  .about-video-link {
+    width: 100%;
+    height: 260px;
+  }
+}
+
+/* About Us End*/
+
+/* Our Services Start */
+.our-h1 {
+  margin-top: 40px;
+  font-size: 34px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.our-h2 {
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.our-p {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Our Services End */
+
+/* Ara Kısım Start */
+#AraKısım {
+  display: flex;
+  height: 200px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: right !important;
+  align-items: center;
+  justify-content: center;
+}
+#AraKısım .Sol {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(225.1deg, #13698d -28.89%, #74ccd2 132.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: -0.638889px;
+}
+#AraKısım .Sag {
+  width: 50%;
+  display: flex;
+  height: 100%;
+  background: linear-gradient(
+    139.85deg,
+    #fff6af -13.45%,
+    #dbb667 1.37%,
+    #b6731b 100%
+  );
+  align-items: center;
+  justify-content: center;
+}
+
+#AraKısım .Sol img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#AraKısım .wp-icon {
+  position: absolute;
+}
+
+#AraKısım .Sag .Sablon {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#AraKısım .Sag a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+#AraKısım .Sag span {
+  color: #fff;
+}
+/* Ara Kısım End */
+
+/* Video Gallery Start */
+h3 {
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffff;
+  text-align: center;
+}
+/* Video Gallery End */
+
+/* Doctor Gallery Start */
+.doctor-baslik {
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.doctor-p {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+/* Doctor Gallery End */
+
+/* Smile Start */
+.smile-background {
+  padding: 50px 0;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: right !important;
+}
+.ana-baslik-smile {
+  position: relative;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: -1.05556px;
+  color: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.smile-button {
+  font-size: 18px;
+  padding: 10px 44px;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  right: 25%;
+  background: #ededed;
+  position: absolute;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* Smile End */
+
+/*  Footer Start */
+.form-kayıt-footer {
+  background: linear-gradient(
+    139.85deg,
+    rgb(255, 246, 175) -13.45%,
+    rgb(219, 182, 103) 1.37%,
+    rgb(182, 115, 27) 100%
+  );
+  padding: 90px 65px 0 66px;
+  height: 600px;
+}
+.footer-img {
+  width: 197px !important;
+  height: 58px;
+  object-fit: contain;
+  margin-bottom: 35px;
+}
+.footer-p {
+  color: white;
+  font-size: 12px;
+}
+.foot-bisey {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-sol-kısım {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.footer-social-link {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.social {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social > span {
+  margin-right: 40px;
+  color: #d4aa59;
+}
+
+.social-svg-color {
+  color: #d4aa59;
+}
+.bg-footeer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+}
+.footer-sag-kısım {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-button {
+  height: 30%;
+  border-radius: 8px;
+  background: linear-gradient(
+    139.85deg,
+    #fff6af -13.45%,
+    #dbb667 1.37%,
+    #b6731b 100%
+  );
+}
+
+.footer-btn-span {
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  font-size: 25px;
+  font-weight: 800px;
+  margin-left: 10px;
+}
+
+.footer-location {
+  color: white;
+}
+
+.foot-a {
+  color: white;
+}
+
+.foot-a:hover {
+  color: white;
+}
+.foot-margin {
+  margin-top: 15px;
+}
+
+.footer-border {
+  border-right: 1px solid gray;
+}
